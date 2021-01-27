@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby 
 
-require_relative '../lib/garden.rb'
-require_relative '../lib/plant.rb'
+# require_relative '../lib/garden.rb' #loading up necessary files
+# require_relative '../lib/plant.rb' #loading up necessary files
+
+require_relative '../config/environment.rb'
 
 lawn = Garden.new(name: 'Front Lawn')
 
